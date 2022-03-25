@@ -1,0 +1,146 @@
+@media only screen and (max-width: 600px) {
+    .btn-wep {
+        border:1px solid orange;
+        padding: 5px 10px;
+    }
+
+    .btn-large {
+        font-size: 1em;
+    }
+
+    .navbar-toggler {
+        box-shadow: none !important;
+        background-color: #fff !important;
+    }
+
+    .offcanvas {
+        background-color: #fff !important;
+    }
+
+    .bg-transparant .nav-link,
+    .bg-scroll .nav-link {
+        color: #fff !important;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .nav-item {
+        color: #000 !important;
+        margin-bottom: 5px;
+        background: #424242;
+    }
+  
+    #home {
+      height: auto;
+      padding-bottom:150px;
+      margin-bottom: 100;
+      overflow: hidden;
+  }
+
+  .bg-title {
+      position: relative;
+      margin: 0;
+      width: 110%;
+      margin-top:100px;
+      margin-left:-40px;
+  }
+
+  .h-desc {
+      margin: 0;
+      margin-top:-70px;
+      font-size: 1em;
+  }
+
+  .div-home {
+      margin-top:-200px;
+  }
+
+  #overview {
+      padding-top:-300px;
+      padding-top:30px;
+  }
+
+.oc-1, .ic-1, .ic-2, .ic-3 {
+    display: none;
+}
+
+.o-desc {
+    letter-spacing: normal;
+    font-size: 1.1em !important;
+    font-weight: normal;
+}
+
+#itenarary {
+    padding: 0 5%;
+    padding-bottom: 100px;
+}
+
+.i-title {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+.i-subtitle {
+    font-size: 1.2em;
+}
+
+.i-desc {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.skill {
+    font-size: 0.8em;
+}
+
+  .c-wep {
+      padding: 0 8%;
+  }
+
+  .o-desc {
+      font-size:0.9em;
+      text-align:center
+  }
+
+  .nine {
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .div-overview {
+      position: relative;
+      margin-top:-100px;
+  }
+
+  .div-itenarary {
+      position: relative;
+      margin-top: -150px;
+  }
+
+  #price {
+      margin-top: -300px;
+  }
+
+  .t-title {
+      font-size: 1.5em;
+  }
+
+  .t-desc {
+      font-size: 0.9em;
+  }
+
+  .t-name {
+      font-size: 1em;
+  }
+
+  .a-desc {
+      font-size: 0.9em;
+      font-weight: normal;
+  }
+
+  .icon-desc {
+      font-size: 0.8em;
+  }
+  
+}
