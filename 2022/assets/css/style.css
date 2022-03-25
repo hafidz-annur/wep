@@ -346,8 +346,8 @@ ul.i-desc {
 #price {
     position: relative;
     z-index: 4;
-    margin-top: -550px;
-    padding-top: 100px;
+    margin-top: -650px;
+    padding-top: 200px;
 }
 
 #testimonial {
