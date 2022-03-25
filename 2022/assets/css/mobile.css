@@ -14,7 +14,8 @@
     }
 
     .offcanvas {
-        background-color: #fff !important;
+        background: rgba(255, 255, 255, 0.623) !important;
+        background: linear-gradient(126deg, rgba(255, 255, 255, 0.781) 0%, rgba(38,55,116,1) 100%) !important;
     }
 
     .bg-transparant .nav-link,
