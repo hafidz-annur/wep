@@ -352,13 +352,14 @@ ul.i-desc {
     z-index: 4;
     margin-top: -650px;
     padding-top: 200px;
+    margin-bottom: 50px;
 }
 
 #testimonial {
     position: relative;
     background: #fff;
     z-index: 4;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
     overflow: hidden;
 }
