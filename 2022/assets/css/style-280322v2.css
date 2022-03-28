@@ -193,8 +193,6 @@ a {
 .pol {
     position: relative;
     z-index: 1;
-    filter: blur(.7px);
-    -webkit-filter: blur(.7px);
     transition: all 0.5s ease-in-out;
 }
 
@@ -202,8 +200,6 @@ a {
 .pol-1:hover,
 .pol-3:hover {
    z-index: 2;
-   filter: blur(0px);
-    -webkit-filter: blur(0px);
    transform: rotate3d(1, -1, 1, 5deg)
 }
 
@@ -212,8 +208,6 @@ a {
 .pol-5:hover,
 .pol-6:hover {
     z-index: 2;
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
     transform: rotate3d(1, -1, 1, -8deg)
 }
 
