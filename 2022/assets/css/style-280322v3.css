@@ -428,3 +428,15 @@ ul.i-desc {
     margin-top: -140px;
     padding-top: 140px;
 }
+
+#contact {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 999;
+}
+
+.bg-wa {
+    background: #00A884;
+    color: #fff;
+}
