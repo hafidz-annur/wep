@@ -20,14 +20,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
+    <link rel="stylesheet" href="assets/css/mailerlite.css">
 
-    <link rel="stylesheet" href="assets/css/style-280322v2.css">
-    <link rel="stylesheet" href="assets/css/mobile-280322.css">
+    <link rel="stylesheet" href="assets/css/style-280322v3.css">
+    <link rel="stylesheet" href="assets/css/mobile-280322v3.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/29387699fc.js" crossorigin="anonymous"></script>
 
 
     <script src="https://kit.fontawesome.com/29387699fc.js" crossorigin="anonymous"></script>
+
+    <script>
+        function ml_webform_success_5622478() { var r = ml_jQuery || jQuery; r(".ml-subscribe-form-5622478 .row-success").show(), r(".ml-subscribe-form-5622478 .row-form").hide() }
+    </script>
+    <img src="https://track.mailerlite.com/webforms/o/5622478/c4w2d7?v1648537863" width="1" height="1"
+        style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
+    <script src="https://static.mailerlite.com/js/w/webforms.min.js?v9b62042f798751c8de86a784eab23614"
+        type="text/javascript"></script>
+
     <style>
         .preload {
             height: 100vh;
@@ -38,6 +48,7 @@
             z-index: 9999;
         }
     </style>
+
 </head>
 
 <body>
@@ -47,6 +58,23 @@
                 <div class="col-md-2 col-5 text-center">
                     <img src="assets/img/loading.gif" alt="" class="w-50">
                     <img src="assets/img/all-in.gif" alt="" class="w-100" style="margin-top:-15px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal  fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScyYgn_O2ajKnhj4DOFU3sbgJRPk5XwrEG1VzFRzNAaM1uoUQ/viewform?embedded=true"
+                        width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
                 </div>
             </div>
         </div>
@@ -65,8 +93,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <div class="d-md-none d-block">
-                    <a class="btn btn-wep d-none navbar-btn" href="https://bit.ly/salatiga-commservice-rsvp"
-                        target="_blank">Register <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    <a class="btn btn-wep d-none navbar-btn" href="#register">REGISTER</a>
                 </div>
                 <div class="offcanvas offcanvas-start" id="offcanvasNavbar">
                     <div class="offcanvas-header">
@@ -91,14 +118,9 @@
                                 <a class="nav-link" href="#price"><i class="fa-solid fa-dollar-sign fa-fw"></i>
                                     Price</a>
                             </li>
-                            <li class="nav-item mt-1">
-                                <a class="btn btn-wep d-none" href="https://bit.ly/salatiga-commservice-rsvp"
-                                    target="_blank">Register <i class="fa-solid fa-arrow-right ms-2"></i></a>
-                            </li>
                         </ul>
                         <div class="d-md-flex d-none">
-                            <a class="btn btn-wep d-none navbar-btn" href="https://bit.ly/salatiga-commservice-rsvp"
-                                target="_blank">Register <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            <a class="btn btn-wep d-none navbar-btn" href="#register">REGISTER</a>
                         </div>
                     </div>
                 </div>
@@ -111,11 +133,10 @@
                 <div class="row h-75 align-items-center">
                     <div class="col-md-12 text-center">
                         <img src="assets/img/home/Title.webp" alt="WEP" class="lazyload bg-title">
-                        <h5 class="h-desc mb-3">
-                            Roll up your sleeves and let’s empower the community!
-                        </h5>
-                        <a href="https://bit.ly/salatiga-commservice-rsvp" target="_blank"
-                            class="btn-large btn-wep">PARTICIPATE TO AID THE COMMUNITY</a>
+                        <div class="register-btn">
+                            <a href="#register" class="btn-large btn-wep">PARTICIPATE TO EMPOWER THE
+                                COMMUNITY</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,7 +175,7 @@
                         </div>
                         <p class="o-desc">
                             <span style="color: #F6931E;">
-                                ALL-in Community Service Program
+                                ALL-in Community Service Program <br class="d-md-none d-block">
                             </span>
                             is a 9-day summer program that combines <span style="color: #F6931E;">live-in</span>
                             experience,
@@ -175,9 +196,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="row align-items-center mt-3">
-                    <div class="col-md-5 mb-md-3 mb-5" data-aos="fade-up">
-                        <div class="card border shadow" style="border-radius: 20px; background: rgb(59, 59, 59);">
+                <div class="row align-items-center justify-content-center mt-3">
+                    <!-- <div class="col-md-5 mb-md-3 mb-5" data-aos="fade-up">
+                        <div class="card border shadow"
+                            style="border-radius: 20px; background: rgb(59, 59, 59); height: 450px;">
                             <div class="card-body">
                                 <div class="taggbox-container" style="width:100%;height:100%;overflow: auto;">
                                     <div class="taggbox-socialwall" data-wall-id="89929"
@@ -187,10 +209,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-7" data-aos="fade-up">
-                        <img src="assets/img/home/benefit portrait.png" class="w-100 ">
-                        <!-- <img src="assets/img/home/benefit landscape.png" class="w-100 d-md-none d-block"> -->
+                    </div> -->
+                    <div class="col-md-9 mt-4" data-aos="fade-up">
+                        <img src="assets/img/home/benefit portrait.png" class="w-100 d-md-none d-block">
+                        <img src="assets/img/home/benefit landscape.png" class="w-100 d-md-block d-none">
                     </div>
                 </div>
             </div>
@@ -409,9 +431,158 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 text-center">
                         <img src="assets/img/price/Price.webp" alt="" class="lazyload w-100 mb-5">
-                        <a href="https://bit.ly/salatiga-commservice-rsvp" target="_blank" class="btn-large btn-wep">I
-                            WANT
-                            TO AID THE COMMUNITY</a>
+
+                        <div id="register">
+                            <div class="card border-0 shadow" style="border-radius: 20px; margin-left: 2%;">
+                                <div class="card-body">
+
+                                    <div id="mlb2-5622478"
+                                        class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5622478">
+                                        <div class="ml-form-align-center">
+
+                                            <div class="ml-form-embedWrapper embedForm">
+                                                <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
+                                                    <div class="ml-form-embedContent text-center" style="">
+                                                        <h2 class="t-title">
+                                                            Roll up your sleeves and participate now!
+                                                        </h2>
+                                                    </div>
+                                                    <form class="ml-block-form"
+                                                        action="https://static.mailerlite.com/webforms/submit/c4w2d7"
+                                                        data-code="c4w2d7" method="post" target="_blank">
+                                                        <div class="ml-form-formContent">
+                                                            <div class="ml-form-fieldRow">
+                                                                <div
+                                                                    class="ml-field-group ml-field-name ml-validate-required">
+                                                                    <input aria-label="name" aria-required="true"
+                                                                        type="text" class="form-control"
+                                                                        data-inputmask="" name="fields[name]"
+                                                                        placeholder="Name" autocomplete="name">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-form-fieldRow">
+                                                                <div
+                                                                    class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                                                                    <input aria-label="email" aria-required="true"
+                                                                        type="email" class="form-control"
+                                                                        data-inputmask="" name="fields[email]"
+                                                                        placeholder="Email" autocomplete="email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-form-fieldRow">
+                                                                <div
+                                                                    class="ml-field-group ml-field-phone ml-validate-required">
+                                                                    <input aria-label="phone" aria-required="true"
+                                                                        type="text" class="form-control"
+                                                                        data-inputmask="" name="fields[phone]"
+                                                                        placeholder="Phone Number" autocomplete="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-form-fieldRow">
+                                                                <div
+                                                                    class="ml-field-group ml-field-negara_study_abroad ml-validate-required">
+                                                                    <input aria-label="negara_study_abroad"
+                                                                        aria-required="true" type="text"
+                                                                        class="form-control" data-inputmask=""
+                                                                        name="fields[negara_study_abroad]"
+                                                                        placeholder="Study Destination" autocomplete="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-form-fieldRow">
+                                                                <div
+                                                                    class="ml-field-group ml-field-audience ml-validate-required">
+                                                                    <label>I'm Attending As</label>
+                                                                    <select class="custom-select"
+                                                                        name="fields[audience]" aria-label="audience"
+                                                                        aria-required="true">
+                                                                        <option> Student </option>
+                                                                        <option> Parent </option>
+                                                                        <option> Teacher/Counsellor </option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-form-fieldRow ml-last-item">
+                                                                <div
+                                                                    class="ml-field-group ml-field-promotion_source ml-validate-required">
+                                                                    <label>I Know This Event From</label>
+                                                                    <select class="custom-select"
+                                                                        name="fields[promotion_source]"
+                                                                        aria-label="promotion_source"
+                                                                        aria-required="true">
+                                                                        <option> Instagram </option>
+                                                                        <option> Tiktok </option>
+                                                                        <option> My parents/friends </option>
+                                                                        <option> My mentor/My tutor </option>
+                                                                        <option> My school/teacher </option>
+                                                                        <option> WhatsApp Blast </option>
+                                                                        <option> Ads from internet </option>
+                                                                        <option> ALL-in Website </option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ml-form-recaptcha ml-validate-required"
+                                                            style="float:left">
+                                                            <style type="text/css">
+                                                                .ml-form-recaptcha {
+                                                                    margin-bottom: 20px
+                                                                }
+
+                                                                .ml-form-recaptcha.ml-error iframe {
+                                                                    border: solid 1px red
+                                                                }
+
+                                                                @media screen and (max-width:480px) {
+                                                                    .ml-form-recaptcha {
+                                                                        width: 220px !important
+                                                                    }
+
+                                                                    .g-recaptcha {
+                                                                        transform: scale(.78);
+                                                                        -webkit-transform: scale(.78);
+                                                                        transform-origin: 0 0;
+                                                                        -webkit-transform-origin: 0 0
+                                                                    }
+                                                                }
+                                                            </style>
+                                                            <script
+                                                                src="https://www.google.com/recaptcha/api.js"></script>
+                                                            <div class="g-recaptcha"
+                                                                data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD">
+                                                            </div>
+                                                        </div>
+                                                        <input type="hidden" name="ml-submit" value="1">
+                                                        <div class="ml-form-embedSubmit">
+                                                            <button type="submit" class="btn-wep btn-large"
+                                                                style="text-transform: uppercase;">I WANT TO
+                                                                EMPOWER
+                                                                THE
+                                                                COMMUNITY</button>
+                                                            <!-- <button disabled="disabled" style="display:none" type="button"
+                                                                class="loading">
+                                                                <div class="ml-form-embedSubmitLoad"></div> <span
+                                                                    class="sr-only">Loading...</span>
+                                                            </button> -->
+                                                        </div>
+                                                        <input type="hidden" name="anticsrf" value="true">
+                                                    </form>
+                                                </div>
+                                                <div class="ml-form-successBody row-success" style="display:none">
+                                                    <div class="ml-form-successContent">
+                                                        <h4></h4>
+                                                        <p style="text-align:center"><span style="font-size:24px">Thank
+                                                                you!</span>
+                                                        </p>
+                                                        <p style="text-align:center">Our team will contact you fir next
+                                                            steps</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

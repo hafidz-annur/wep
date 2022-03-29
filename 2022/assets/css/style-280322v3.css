@@ -1,6 +1,6 @@
 @font-face {
-  font-family: wep;
-  src: url('../font/WEP\ Font/CaveatBrush-Regular.ttf');
+    font-family: wep;
+    src: url('../font/WEP\ Font/CaveatBrush-Regular.ttf');
 }
 
 a {
@@ -25,7 +25,7 @@ a {
     margin-right: 30px;
 }
 
-.navbar-brand img  {
+.navbar-brand img {
     width: 200px
 }
 
@@ -56,8 +56,8 @@ a {
 }
 
 .offcanvas {
-        background: rgba(255, 255, 255, 0) !important;
-    }
+    background: rgba(255, 255, 255, 0) !important;
+}
 
 .container {
     padding: 0 5%;
@@ -78,9 +78,9 @@ a {
     transition: all 0.1s ease-in-out;
     margin-bottom: 5px;
 
-    box-shadow: 0px 2px 0px 0px rgba(45,45,133,1);
-    -webkit-box-shadow: 0px 2px 0px 0px rgba(45,45,133,1);
-    -moz-box-shadow: 0px 2px 0px 0px rgba(45,45,133,1);
+    box-shadow: 0px 2px 0px 0px rgba(45, 45, 133, 1);
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(45, 45, 133, 1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(45, 45, 133, 1);
 }
 
 .btn-wep:hover {
@@ -90,9 +90,9 @@ a {
 .btn-wep:active {
     margin-top: 5px;
     margin-bottom: 0;
-    box-shadow: 0px 0px 0px 0px rgba(45,45,133,1);
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(45,45,133,1);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(45,45,133,1);
+    box-shadow: 0px 0px 0px 0px rgba(45, 45, 133, 1);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(45, 45, 133, 1);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(45, 45, 133, 1);
 }
 
 .btn-large {
@@ -108,7 +108,7 @@ a {
     background: url('../img/home/Homepage\ background.webp');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     height: 150vh;
 }
 
@@ -149,7 +149,7 @@ a {
 .box {
     position: relative;
     width: 100%;
-    margin-top:-500px;
+    margin-top: -500px;
     z-index: 3;
     overflow: hidden;
     display: flex;
@@ -160,9 +160,14 @@ a {
     width: 200px;
 }
 
+.p-img img {
+    width: 400px;
+}
+
+
 .pol-1 {
-   margin-left: -50px;
-   padding-top: 250px;
+    margin-left: -50px;
+    padding-top: 250px;
 }
 
 .pol-2 {
@@ -199,8 +204,8 @@ a {
 
 .pol-1:hover,
 .pol-3:hover {
-   z-index: 2;
-   transform: rotate3d(1, -1, 1, 5deg)
+    z-index: 2;
+    transform: rotate3d(1, -1, 1, 5deg)
 }
 
 .pol-2:hover,
@@ -214,7 +219,7 @@ a {
 
 #overview {
     height: auto;
-    margin-top:-100px;
+    margin-top: -100px;
     padding-top: 100px;
     position: relative;
     z-index: 3;
@@ -222,7 +227,7 @@ a {
 }
 
 .ninedays {
-   width: 75%; 
+    width: 75%;
 }
 
 .o-desc {
@@ -235,7 +240,7 @@ a {
 
 .oc-1 {
     position: absolute;
-    top:0;
+    top: 0;
     right: -40vh;
 }
 
@@ -271,7 +276,8 @@ a {
 }
 
 ul.i-desc {
-    padding-left: 20px !important;;
+    padding-left: 20px !important;
+    ;
 }
 
 .i-desc {
@@ -318,7 +324,7 @@ ul.i-desc {
 
 .ic-1 {
     position: absolute;
-    top:0;
+    top: 0;
     left: -40vh;
 }
 
@@ -377,7 +383,7 @@ ul.i-desc {
     color: rgb(41, 41, 41);
     font-style: italic;
     text-align: center;
-    margin-bottom:40px
+    margin-bottom: 40px
 }
 
 .t-name {
@@ -412,4 +418,13 @@ ul.i-desc {
 
 .footer-logo {
     width: 50%;
+}
+
+.register-btn {
+    margin-top: -200px;
+}
+
+#register {
+    margin-top: -140px;
+    padding-top: 140px;
 }
