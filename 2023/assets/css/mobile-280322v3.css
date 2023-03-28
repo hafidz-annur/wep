@@ -1,0 +1,159 @@
+@media only screen and (max-width: 600px) {
+    .btn-wep {
+        border: 1px solid orange;
+        padding: 5px 10px;
+        text-transform: uppercase !important;
+    }
+
+    .btn-large {
+        font-size: 1em;
+    }
+
+    .navbar-toggler {
+        box-shadow: none !important;
+        background-color: #fff !important;
+    }
+
+    .offcanvas {
+        background: rgba(255, 255, 255, 0.623) !important;
+        background: linear-gradient(126deg, rgba(255, 255, 255, 0.781) 0%, rgba(38, 55, 116, 1) 100%) !important;
+    }
+
+    .bg-transparant .nav-link,
+    .bg-scroll .nav-link {
+        color: #fff !important;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .nav-item {
+        color: #000 !important;
+        margin-bottom: 5px;
+        background: #424242;
+    }
+
+    .eligibility {
+        width: 120px;
+    }
+
+    #home {
+        height: auto;
+        padding-bottom: 150px;
+        margin-bottom: 100;
+        overflow: hidden;
+    }
+
+    .bg-title {
+        position: relative;
+        margin: 0;
+        width: 110%;
+        margin-top: 100px;
+        margin-left: -40px;
+    }
+
+    .h-desc {
+        margin: 0;
+        margin-top: -80px;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-shadow: 2px 2px rgb(255, 234, 222);
+    }
+
+    .div-home {
+        margin-top: -120px;
+    }
+
+    #overview {
+        margin-top: -140px;
+        padding-top: 30px;
+    }
+
+    .oc-1, .ic-1, .ic-2, .ic-3 {
+        display: none;
+    }
+
+    .o-desc {
+        letter-spacing: normal;
+        font-size: 1.1em !important;
+        font-weight: normal;
+    }
+
+    #itinarary {
+        padding: 0 5%;
+        padding-bottom: 130px;
+        margin-top: -10px;
+    }
+
+    .i-title {
+        font-size: 2.3em;
+        margin-bottom: 20px;
+    }
+
+    .i-subtitle {
+        font-size: 1.2em;
+    }
+
+    .i-desc {
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .skill {
+        font-size: 0.8em;
+    }
+
+    .c-wep {
+        padding: 0 8%;
+    }
+
+    .o-desc {
+        font-size: 0.9em;
+        text-align: center
+    }
+
+    .nine {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .div-overview {
+        position: relative;
+        margin-top: -100px;
+    }
+
+    .div-itinarary {
+        position: relative;
+        margin-top: -150px;
+    }
+
+    #price {
+        margin-top: -410px;
+    }
+
+    .t-title {
+        font-size: 1.5em;
+    }
+
+    .t-desc {
+        font-size: 0.9em;
+    }
+
+    .t-name {
+        font-size: 1em;
+    }
+
+    .a-desc {
+        font-size: 0.9em;
+        font-weight: normal;
+    }
+
+    .icon-desc {
+        font-size: 0.8em;
+    }
+
+    .register-btn {
+        margin-top: -85px;
+    }
+
+}
