@@ -6,7 +6,7 @@
     }
 
     .btn-large {
-        font-size: 1em;
+        font-size: 0.715em;
     }
 
     .navbar-toggler {
@@ -16,7 +16,11 @@
 
     .offcanvas {
         background: rgba(255, 255, 255, 0.623) !important;
-        background: linear-gradient(126deg, rgba(255, 255, 255, 0.781) 0%, rgba(38, 55, 116, 1) 100%) !important;
+        background: linear-gradient(
+            126deg,
+            rgba(255, 255, 255, 0.781) 0%,
+            rgba(38, 55, 116, 1) 100%
+        ) !important;
     }
 
     .bg-transparant .nav-link,
@@ -68,7 +72,10 @@
         padding-top: 30px;
     }
 
-    .oc-1, .ic-1, .ic-2, .ic-3 {
+    .oc-1,
+    .ic-1,
+    .ic-2,
+    .ic-3 {
         display: none;
     }
 
@@ -108,7 +115,7 @@
 
     .o-desc {
         font-size: 0.9em;
-        text-align: center
+        text-align: center;
     }
 
     .nine {
@@ -140,6 +147,10 @@
     }
 
     .t-name {
+        font-size: 1.2em;
+    }
+
+    .t-year {
         font-size: 1em;
     }
 
@@ -155,5 +166,4 @@
     .register-btn {
         margin-top: -85px;
     }
-
 }
