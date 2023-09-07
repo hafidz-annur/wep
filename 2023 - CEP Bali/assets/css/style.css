@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Caveat+Brush&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Caveat', cursive; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Scroll Bar */
+/* Width */
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d8d8d8;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #27387A;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #27387A;
+}
+
+/* preload */
+.preload {
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 9999;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    min-width: 100vw;
+    z-index: 1030;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+.navbar.navbar-transparent {
+    background: rgba(255, 255, 255, 0);
+}
+.navbar.navbar-white {
+    background: white;
+}
+.navbar .navbar-pic {
+    width: 120px;
+}
+.navbar .navbar-container {
+    gap: 4rem;
+}
+.navbar .nav-item .nav-link {
+    color: black;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    font-weight: 600 !important;
+}
+.navbar .nav-item .nav-link.btn-danger {
+    color: white;
+    background: rgb(210, 0, 0);
+    border: 0;
+    border-bottom: 1.2px solid white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 3px 2px !important;
+}
+@media (max-width: 768px) {
+    .navbar .navbar-pic {
+        width: 68px;
+    }
+    .navbar .navbar-container {
+        gap: 1.2rem;
+    }
+    .navbar-toggler {
+        font-size: 12px;
+    }
+}
+
+.header {
+    background: url('../img/2023_cep\ bali_lp_header.webp');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.eligibility {
+    background: url('../img/2023_cep\ bali_lp_ELIGIBILITY.webp');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 250px;
+    min-height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media (max-width: 992px) {
+    .eligibility {
+        min-width: 200px;
+        min-height: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .eligibility {
+        min-width: 120px;
+        min-height: 120px;
+    }
+}
+.content-header {
+    padding-top: 140px;
+}
+.content-header .btn-danger {
+    font-size: 28px;
+    font-weight: 600;
+    color: white !important;
+    background: rgb(210, 0, 0);
+    padding: 12px 0;
+    border: 3px solid white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 4px 2px;
+}
+.content-header-highlight {
+    margin: 0 -8rem;;
+}
+@media (max-width: 992px) {
+    .content-header .btn-danger {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .content-header {
+        padding-top: 82px;
+    }
+    .content-header .btn-danger {
+        font-size: 10px;
+        padding: 8px 4px;
+    }
+    .content-header-highlight {
+        margin: 0 -2rem 0 -2rem;;
+    }
+}
+
+.academic {
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+.academic-mobile {
+    margin-top: -20px;
+}
+.dot-academic {
+    width: 500px;
+    /* height: 400px; */
+    position: absolute;
+    bottom: -60px;
+    right: -220px;
+    z-index: -3;
+}
+.academic .pol {
+    width: 320px;
+    height: 350px;
+}
+.pol {
+    position: relative;
+    /* z-index: 1; */
+    transition: all 0.5s ease-in-out;
+}
+.pol-1 {
+    margin: 180px 0 0 0;
+}
+.pol-2 {
+    margin: 190px -50px 0 -35px;
+}
+.pol-3 {
+    margin: 240px -50px 0 -16px;
+    z-index: -2;
+}
+.pol-4 {
+    margin: 170px -50px 0 -40px;
+}
+.pol-5 {
+    margin: 90px -50px 0 -60px;
+}
+.pol-6 {
+    margin: 0 0 0 -16px;
+    z-index: -2;
+}
+.pol-1:hover,
+.pol-3:hover {
+    z-index: 2;
+    transform: rotate3d(1, -1, 1, 5deg);
+}
+.pol-2:hover,
+.pol-4:hover,
+.pol-5:hover,
+.pol-6:hover {
+    z-index: 2;
+    transform: rotate3d(1, -1, 1, -8deg);
+}
+@media (max-width: 768px) {
+    .academic img {
+        width: 120px;
+        height: 150px;
+    }
+}
+
+
+#overview {
+    padding-top: 84px;
+}
+.six-days-program p {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 1.3;
+}
+.six-days-program p .orange {
+    color: #F6931E;
+}
+@media (max-width: 768px) {
+    #overview {
+        padding-top: 32px;
+    }
+    .six-days-program p {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.4;
+    }
+}
+
+#research-skills {
+    position: relative;
+    z-index: 7;
+}
+
+/* Itinerary */
+/* .blue-brush-top {
+    position: absolute;
+    width: 100%;
+    margin-top: -600px;
+    z-index: -2;
+} */
+.wrap-itinerary {
+    margin-top: -22%;
+}
+.blue-brush-top {
+    width: 100%;
+}
+#itinerary {
+    /* position: relative; */
+    background: #263774;
+    padding: 50px 0 400px 0;
+    /* margin-top: 200px; */
+    z-index: 3;
+    color: #fff;
+    overflow: hidden;
+}
+.itinerary-content {
+    gap: 5rem;
+}
+.itinerary .day-info {
+    width: 320px;
+}
+.itinerary h2 {
+    font-size: 62px;
+    color: #fdb74e;
+    line-height: 1;
+}
+.itinerary h5 {
+    color: #ffdda9;
+    font-size: 24px;
+    font-weight: 600;
+}
+.itinerary ul li {
+    font-size: 20px;
+    font-weight: 500;
+}
+.itinerary-photos {
+    position: relative;
+}
+.itinerary-photos .img {
+    width: 300px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.itinerary-photos .img-1 {
+    margin: 0 0 0 150px;
+    z-index: 0;
+}
+.itinerary-photos .img-2 {
+    margin: -90px 0 0 60px;
+}
+.itinerary-photos .img-1:hover {
+    z-index: 2;
+    transform: rotate3d(1, -1, 1, -3deg);
+}
+.itinerary-photos .img-2:hover {
+    z-index: 2;
+    transform: rotate3d(1, -1, 1, 5deg);
+}
+.white-brush-bottom {
+    position: absolute;
+    width: 100%;
+    margin-top: -34.5%;
+    z-index: 3;
+}
+
+h2 {
+    font-size: 52px;
+    font-family: 'Caveat Brush', cursive;
+}
+h3 {
+    font-size: 30px;
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
+/* What They Say */
+.what-they-say {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    z-index: 4;
+}
+/* Splide */
+/* .splide__arrow {
+    display: none;
+} */
+.splide__pagination {
+    bottom: -1.5rem;
+}
+.splide__pagination__page.is-active {
+    background: grey;
+    transform: scale(1.5);
+}
+
+/* Empower Bali */
+.empower-bali {
+    position: relative;
+    z-index: 4;
+}
+.empower-bali h3 {
+    font-weight: 600;
+}
+.empower-bali .form-card {
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(180deg, #124A8C 0%, #1F2A5A 100%);
+    border-radius: 16px;
+}
+.empower-bali .form-card .form-label,
+.empower-bali .form-card .form-control {
+    font-weight: 500;
+}
+.empower-bali .form-card button {
+    background: #F6931E;
+    color: white;
+    font-weight: 500;
+}
+
+/* About Us */
+.about-us {
+    position: relative;
+    z-index: 4;
+}
+.about-us .subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+@media (max-width: 768px) {
+    .about-us .subtitle {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .about-us .icon-desc {
+        font-size: 14px;
+    }
+}
+
+/* Footer */
+.footer {
+    background: url("../img/Footer.webp");
+    background-size: cover;
+    background-position: top;
+    padding-top: 40px;
+    color: #fff;
+    margin-top: 5%;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-logo {
+    width: 50%;
+}

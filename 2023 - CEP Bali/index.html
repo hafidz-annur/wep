@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./assets/img/favicon-icon.png" rel="icon">
+    <title>Community Empowerment Program</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Splide JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/29387699fc.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="mx-auto" style="position: relative; max-width: 1920px;">
+    <!-- Preload -->
+    <div class="preload">
+        <div class="container h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-md-2 col-5 text-center">
+                    <img src="./assets/img/loading/loading.gif" alt="" class="w-50">
+                    <img src="./assets/img/loading/all-in.gif" alt="" class="w-100" style="margin-top:-15px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-primary navbar-transparent p-0 py-lg-3 py-2" id="navbar">
+        <div class="navbar-container container-fluid d-flex flex-lg-row flex-row-reverse justify-content-lg-start justify-content-end px-md-5 px-3 py-md-1 py-2 mx-md-4">
+            <a href="index.html">
+                <img class="navbar-pic" src="./assets/img/logo/logo-allin-color.png" alt="ALL-in Eduspace" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-end gap-md-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Itinerary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Price</a>
+                    </li>
+                    <li class="nav-item ms-lg-3 ms-0" style="width: fit-content;">
+                        <a class="nav-link btn-danger px-3 py-2" href="" target="_blank">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid header p-0" id="home">
+        <div class="eligibility"></div>
+        <div class="container content-header d-flex flex-column gap-md-4 gap-3">
+            <div class="col-md-7 col-9 mx-auto">
+                <img class="img-fluid" src="./assets/img/2023_cep bali_lp_judul.webp" alt="Cultural Immersion Research Program" loading="lazy">
+            </div>
+            <div class="col-md-7 col-10 mx-auto">
+                <img class="img-fluid" src="./assets/img/2023_cep bali_lp_lokasi.webp" alt="Baliwoso, Bali 2-7 Januari 2024" loading="lazy">
+            </div>
+            <div class="col-lg-5 col-6 text-center mx-auto mt-lg-5">
+                <a class="nav-link btn-danger" href="" target="_blank">START EMPOWERING BALI</a>
+            </div>
+        </div>
+        <div class="container-fluid academic justify-content-center d-md-flex d-none flex-row p-0">
+            <img src="assets/img/academic/2023_cep bali_lp_photos-2.webp" class="pol img-fluid pol-1" alt="">
+            <img src="assets/img/academic/2023_cep bali_lp_photos-3.webp" class="pol img-fluid pol-2" alt="">
+            <img src="assets/img/academic/2023_cep bali_lp_photos-4.webp" class="pol img-fluid pol-3" alt="">
+            <img src="assets/img/academic/2023_cep bali_lp_photos-5.webp" class="pol img-fluid pol-4" alt="">
+            <img src="assets/img/academic/2023_cep bali_lp_photos-6.webp" class="pol img-fluid pol-5" alt="">
+            <img src="assets/img/academic/2023_cep bali_lp_photos-7.webp" class="pol img-fluid pol-6" alt="">
+            <img src="assets/img/circle.webp" class="dot-academic d-md-block d-none" alt="">
+        </div>
+        <div class="container-fluid academic-mobile d-md-none d-block p-0" style="overflow: hidden;">
+            <div class="col content-header-highlight d-flex flex-row justify-content-center">
+                <img class="img-fluid" src="./assets/img/highlight.webp" alt="highlight photos" loading="lazy">
+            </div>
+        </div>
+        <div class="container six-days-program d-flex flex-column gap-md-2 gap-2" id="overview">
+            <div class="col-lg-9 col d-flex flex-md-row flex-column justify-content-between mx-auto gap-md-0 gap-5">
+                <div class="col-lg-4 col-10 align-self-center p-md-0 p-2">
+                    <img class="img-fluid ms-lg-4 ms-0" src="./assets/img/2023_cep bali_lp_6 days program.webp" alt="6 days program" loading="lazy">
+                </div>
+                <div class="col-lg-7 col-10 align-self-md-end align-self-center">
+                    <p class="m-0">
+                        <span class="orange">ALL-in Cultural Immersion Research Program</span> is a <span class="orange">6 days program</span> where students collaborate with a local village in Bali to <span class="orange">conduct field research</span> on their agricultural practices. Through data analysis and strategic recommendations, <span class="orange">students will play a vital role in driving direct impact to improve farming practices and enhance the local economy.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-9 col-10 mx-auto">
+                <p class="m-0">
+                    In addition to research, this program offers personal development sessions on leadership and teamwork through culture immersion, empowering students to be catalysts for positive change and fostering social responsibility and empathy.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="container mt-5">
+            <div class="col-md-7 col-11 mx-auto mb-md-3 mb-5" data-aos="fade-up">
+                <div class="card border shadow" style="border-radius: 20px; background: #ffe3b1;">
+                    <div class="card-body">
+                        <!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/r9JziM1yv50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/r9JziM1yv50?si=TVGUbuMRYRniMTAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5" id="benefits">
+            <div class="col-md-8 col-11 pt-3 mx-auto">
+                <img class="img-fluid" src="./assets/img/2023_cep bali_lp_benefits.webp" alt="benefits" loading="lazy">
+            </div>
+        </div>
+        <div class="container mt-5" id="research-skills">
+            <div class="col-md-8 col-11 pt-3 mx-auto">
+                <img class="img-fluid" src="./assets/img/2023_cep bali_lp_research skills.webp" alt="research skills" loading="lazy">
+            </div>
+        </div>
+    </div>
+    <div class="wrap-itinerary">
+        <img src="assets/img/itinerary/brush-bg-biru.webp" loading="lazy" class="blue-brush-top">
+        <div class="container-fluid itinerary" id="itinerary">
+            <div class="itinerary-content d-flex flex-column">
+                <div class="col-8 d-flex flex-row mx-auto">
+                    <div class="col-6">
+                        <img src="assets/img/itinerary/2023_cep bali_lp_day 1-23.webp" loading="lazy" class="day-info">
+                        <h2 class="mt-3">Cultural Immersion Induction</h2>
+                        <h5 class="mt-4">What will you do:</h5>
+                        <ul style="color:#F6931E">
+                            <li>
+                                <span class="text-white">
+                                    Local Community Immersion
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text-white">
+                                    Team Building Activity
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <div class="container-fluid itinerary-photos d-flex flex-column justify-content-center p-0">
+                            <img src="assets/img/itinerary/2023_cep bali_lp_day 1-12.webp" class="img img-fluid img-1" alt="">
+                            <img src="assets/img/itinerary/2023_cep bali_lp_day 1-11.webp" class="img img-fluid img-2" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 d-flex flex-row mx-auto">
+                    <div class="col-6">
+                        <img src="assets/img/itinerary/2023_cep bali_lp_day 1-23.webp" loading="lazy" class="day-info">
+                        <h2 class="mt-3">Foundation of Agricultural Exploration</h2>
+                        <h5 class="mt-4">What will you do:</h5>
+                        <ul style="color:#F6931E">
+                            <li>
+                                <span class="text-white">
+                                    Research Project Workshop
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text-white">
+                                    Team Building Activity
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <div class="container-fluid itinerary-photos d-flex flex-column justify-content-center p-0">
+                            <img src="assets/img/itinerary/2023_cep bali_lp_day 1-12.webp" class="img img-fluid img-1" alt="">
+                            <img src="assets/img/itinerary/2023_cep bali_lp_day 1-11.webp" class="img img-fluid img-2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/img/itinerary/brush-bg-putih-new.webp" loading="lazy" class="white-brush-bottom">
+    </div>
+    <!-- <div class="col py-5 my-5"></div> -->
+    <div class="container what-they-say text-center mt-5">
+        <h2>What they say about this program</h2>
+        <div class="col-10 mx-auto">
+            <section class="splide mt-4">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img class="img-fluid" src="./assets/img/2023_cep bali_lp_testimoni-29.webp" alt="research skills" loading="lazy">
+                        </li>
+                        <li class="splide__slide">
+                            <img class="img-fluid" src="./assets/img/2023_cep bali_lp_testimoni-30.webp" alt="research skills" loading="lazy">
+                        </li>
+                        <li class="splide__slide">
+                            <img class="img-fluid" src="./assets/img/2023_cep bali_lp_testimoni-31.webp" alt="research skills" loading="lazy">
+                        </li>
+                        <li class="splide__slide">
+                            <img class="img-fluid" src="./assets/img/2023_cep bali_lp_testimoni-32.webp" alt="research skills" loading="lazy">
+                        </li>
+                        <li class="splide__slide">
+                            <img class="img-fluid" src="./assets/img/2023_cep bali_lp_testimoni-33.webp" alt="research skills" loading="lazy">
+                        </li>
+                        <li class="splide__slide">
+                            <img class="img-fluid" src="./assets/img/2023_cep bali_lp_testimoni-34.webp" alt="research skills" loading="lazy">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="col py-2"></div>
+    <div class="container empower-bali mt-5">
+        <h3 class="text-center">Roll up your sleeves and let’s empower Bali!</h3>
+        <!-- <div class="col-lg-6 col-10 form-card mx-auto p-4 mt-4">
+            <form class="d-flex flex-column gap-3" action="" method="post">
+                <div class="col">
+                    <label for="name" class="form-label mb-1">Name</label>
+                    <input type="text" class="form-control py-2" id="name" name="name">
+                </div>
+                <div class="col">
+                    <label for="email" class="form-label mb-1">Email</label>
+                    <input type="text" class="form-control py-2" id="email" name="email">
+                </div>
+                <div class="col">
+                    <label for="phone_number" class="form-label mb-1">Phone Number</label>
+                    <input type="text" class="form-control py-2" id="phone_number" name="phone_number">
+                </div>
+                <button type="submit" class="btn py-2 mt-3" id="">
+                    Submit
+                </button>
+            </form>
+        </div> -->
+    </div>
+
+    <div class="container about-us mt-5" id="about-us">
+        <div class="col-md-8 col-11 mx-auto text-center">
+            <h2>About Us</h2>
+            <p class="subtitle mb-5">
+                We are an independent university consultant based in Jakarta, Indonesia.
+                Our mission is to ensure that students are thriving into the path they aspire to have in the
+                future.
+            </p>
+            <div class="row row-cols-md-3 row-cols-2">
+                <div class="col mb-2 text-center">
+                    <div class="icon-img p-2">
+                        <img src="assets/img/about-us/about us icons_0.webp" class="mr-auto ml-auto w-50">
+                    </div>
+                    <p class="icon-desc">100% Students placed<br>at target universities</p>
+                </div>
+                <div class="col mb-2 text-center">
+                    <div class="icon-img p-2">
+                        <img src="assets/img/about-us/about us icons_1.webp" class="mr-auto ml-auto w-50">
+                    </div>
+                    <p class="icon-desc">More than 40<br>School Clients</p>
+                </div>
+                <div class="col mb-2 text-center">
+                    <div class="icon-img p-4">
+                        <img src="assets/img/about-us/about us icons_2.webp" class="mr-auto ml-auto w-50">
+                    </div>
+                    <p class="icon-desc">More than 1,000<br>Essays Reviewed</p>
+                </div>
+                <div class="col mb-2 text-center">
+                    <div class="icon-img p-2">
+                        <img src="assets/img/about-us/about us icons_3.webp" class="mr-auto ml-auto w-50">
+                    </div>
+                    <p class="icon-desc">More than 50<br>Corporate Partners</p>
+                </div>
+                <div class="col mb-2 text-center">
+                    <div class="icon-img p-3">
+                        <img src="assets/img/about-us/about us icons_4.webp" class="mr-auto ml-auto w-50">
+                    </div>
+                    <p class="icon-desc">150+ Point SAT<br>Score Improvement</p>
+                </div>
+                <div class="col mb-2 text-center">
+                    <div class="icon-img p-2">
+                        <img src="assets/img/about-us/about us icons_5.webp" class="mr-auto ml-auto w-50">
+                    </div>
+                    <p class="icon-desc">More than 1,500<br>Event Participants</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer">
+        <div class="col-11 mx-auto">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <a href="https://all-inedu.com/" target="_blank">
+                        <img src="assets/img/logo/logo-allin-white.webp" class="lazyload footer-logo" alt="ALL-in Eduspace">
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-globe fa-fw"></i> <a href="https://all-inedu.com/"
+                        target="_blank">www.all-inedu.com</a>
+                    <br>
+                    <i class="fab fa-instagram fa-fw"></i> <a href="https://www.instagram.com/allineduspace"
+                        target="_blank">@allineduspace</a>
+                </div>
+                <div class="col-md-5 mb-3 ps-md-5">
+                    <i class="fas fa-mobile-alt fa-fw"></i> <a href="https://wa.me/6281808081363"
+                        target="_blank">Angie</a> /
+                    <a href="https://wa.me/6287860811413" target="_blank">Derry</a> <br>
+                    <i class="fas fa-envelope fa-fw"></i> <a href="mailto:info@all-inedu.com"
+                        target="_blank">info@all-inedu.com</a>
+                </div>
+                <div class="col-md-12">
+                    <hr class="my-2">
+                </div>
+                <div class="col-md-4 mb-3">
+                    Jl Jeruk Kembar Blok Q9, No. 15 <br> Srengseng, Kembangan <br>
+                    Jakarta Barat 11630, Indonesia
+                </div>
+                <div class="col-md-3 mb-3">
+                    #itsALLintheprep <br>
+                    #TakeOnYourFuture
+                </div>
+                <div class="col-md-5 mb-3 ps-md-5">
+                    Copyright © 2021 · ALL-in Eduspace. <br>
+                    All rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+        function preloader() {
+            $(".preload").fadeOut()
+        }
+        setTimeout(preloader, 100);
+        // setTimeout(preloader, 2000);
+    </script>
+    <script>
+        Splide.defaults = {
+            perPage: 3,
+            width: '100%',
+            gap: '1.2rem',
+            type: 'loop',
+            padding: {
+                left: 60,
+                right: 60
+            },
+            autoScroll: {
+                speed: 3,
+            },
+            breakpoints: {
+                640: {
+                    perPage: 1,
+                    gap: '10px',
+                    padding: 35
+                },
+            }
+        }
+        new Splide('.splide').mount();
+    </script>
+    <script>
+        $(window).scroll(function () {
+            // Navbar 
+            if ($(window).scrollTop() >= 5) {
+                $('.navbar').switchClass( "navbar-transparent", "navbar-white", 0);
+            } else {
+                $('.navbar').switchClass( "navbar-white", "navbar-transparent", 0);
+            }
+        });
+    </script>
+</body>
+</html>
