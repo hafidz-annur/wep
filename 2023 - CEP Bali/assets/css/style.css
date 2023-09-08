@@ -83,6 +83,12 @@
     .navbar-toggler {
         font-size: 12px;
     }
+    .navbar .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .navbar .nav-item .nav-link.btn-danger {
+        font-size: 12px;
+    }
 }
 
 .header {
@@ -237,18 +243,55 @@
     }
 }
 
+.dot {
+    position: relative;
+    /* z-index: 1; */
+}
+.dot-2 {
+    width: 500px;
+    position: absolute;
+    left: -280px;
+    top: -240px;
+    /* z-index: 34; */
+}
+.dot-3, .dot-4 {
+    width: 500px;
+    position: absolute;
+    right: -580px;
+    top: -100px;
+    z-index: 0;
+}
+.dot-5 {
+    width: 500px;
+    position: absolute;
+    left: -580px;
+    top: -100px;
+    z-index: 0;
+}
+.dot-6 {
+    width: 700px;
+    position: absolute;
+    right: -260px;
+    top: -360px;
+    z-index: -1;
+    filter: grayscale(100%);
+    filter: brightness(200%);
+}
+.dot-7 {
+    width: 700px;
+    position: absolute;
+    left: -250px;
+    top: -100px;
+    z-index: -1;
+    filter: grayscale(100%);
+    filter: brightness(200%);
+}
 #research-skills {
     position: relative;
     z-index: 7;
 }
 
 /* Itinerary */
-/* .blue-brush-top {
-    position: absolute;
-    width: 100%;
-    margin-top: -600px;
-    z-index: -2;
-} */
 .wrap-itinerary {
     margin-top: -22%;
 }
@@ -259,10 +302,54 @@
     /* position: relative; */
     background: #263774;
     padding: 50px 0 400px 0;
-    /* margin-top: 200px; */
+    margin-top: -20px;
     z-index: 3;
     color: #fff;
     overflow: hidden;
+}
+#itinerary-price {
+    position: relative;
+    z-index: 100;
+}
+#price {
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* top: -40px; */
+    bottom: -280px;
+    margin: auto;
+    /* z-index: 7; */
+}
+#itinerary-price .price-info {
+    width: 1040px;
+}
+@media (max-width: 992px) {
+    #itinerary-price .price-info {
+        width: 740px;
+    }
+}
+@media (max-width: 768px) {
+    #itinerary {
+        padding: 50px 0 150px 0;
+    }
+    #price {
+        bottom: -80px;
+    }
+    #itinerary-price .price-info {
+        width: 340px;
+    }
+    .itinerary-content {
+        gap: 4rem;
+    }
+}
+#itinerary-price .price-info-add {
+    width: 320px;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 .itinerary-content {
     gap: 5rem;
@@ -271,9 +358,9 @@
     width: 320px;
 }
 .itinerary h2 {
-    font-size: 62px;
+    font-size: 68px;
     color: #fdb74e;
-    line-height: 1;
+    line-height: 0.9;
 }
 .itinerary h5 {
     color: #ffdda9;
@@ -288,16 +375,16 @@
     position: relative;
 }
 .itinerary-photos .img {
-    width: 300px;
+    width: 350px;
     position: relative;
     transition: all 0.5s ease-in-out;
 }
 .itinerary-photos .img-1 {
-    margin: 0 0 0 150px;
+    margin: 0 0 0 180px;
     z-index: 0;
 }
 .itinerary-photos .img-2 {
-    margin: -90px 0 0 60px;
+    margin: -100px 0 0 60px;
 }
 .itinerary-photos .img-1:hover {
     z-index: 2;
@@ -312,6 +399,31 @@
     width: 100%;
     margin-top: -34.5%;
     z-index: 3;
+}
+@media (max-width: 768px) {
+    .itinerary .day-info {
+        width: 200px;
+    }
+    .itinerary h2 {
+        font-size: 36px;
+        line-height: 0.9;
+    }
+    .itinerary h5 {
+        font-size: 18px;
+    }
+    .itinerary ul li {
+        font-size: 16px;
+    }
+    .itinerary-photos .img {
+        width: 180px;
+    }
+    .itinerary-photos .img-1 {
+        margin: 0 0 0 130px;
+        z-index: 0;
+    }
+    .itinerary-photos .img-2 {
+        margin: -100px 0 0 10px;
+    }
 }
 
 h2 {
