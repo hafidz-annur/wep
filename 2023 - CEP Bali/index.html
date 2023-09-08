@@ -165,7 +165,7 @@
             </div>
             <div class="col py-4"></div>
             <div class="col-md-8 col-10 mx-auto" id="benefits">
-                <img class="img-fluid" src="./assets/img/2023_cep bali_lp_benefits.webp" alt="benefits" loading="lazy">
+                <img class="img-fluid" src="./assets/img/2023_cep bali_lp_benefits.png" alt="benefits" loading="lazy">
             </div>
             <div class="dot">
                 <img src="assets/img/circle.webp" class="dot-2 d-md-block d-none" alt="">
@@ -516,6 +516,16 @@
                 $('.navbar').switchClass( "navbar-white", "navbar-transparent", 0);
             }
         });
+        $( ".navbar-toggler" ).on( "click", function() {
+            $("[aria-expanded]").each(function() {
+                var expandedValue = $('.navbar-toggler').attr("aria-expanded");
+                if (expandedValue === "true") {
+                    $('.navbar').switchClass( "navbar-transparent", "navbar-white", 0);
+                } else {
+                    $('.navbar').switchClass( "navbar-white", "navbar-transparent", 0);
+                }
+            });
+        } );
     </script>
 </body>
 </html>
