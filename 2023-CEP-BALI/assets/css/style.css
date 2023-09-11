@@ -301,11 +301,11 @@
 #itinerary {
     /* position: relative; */
     background: #263774;
-    padding: 50px 0 400px 0;
-    margin-top: -20px;
-    z-index: 3;
     color: #fff;
-    overflow: hidden;
+    padding: 60px 0 400px 0;
+    /* margin-top: -20px; */
+    /* z-index: 3; */
+    /* overflow: hidden; */
 }
 #itinerary-price {
     position: relative;
@@ -337,7 +337,7 @@
         bottom: -80px;
     }
     #itinerary-price .price-info {
-        width: 340px;
+        width: 360px;
     }
     .itinerary-content {
         gap: 4rem;
