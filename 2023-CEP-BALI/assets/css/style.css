@@ -155,9 +155,10 @@
 }
 
 .baliwoso {
-  top: 12px;
-  right: -40px;
-  height: 45px;
+  top: 45px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 30px;
 }
 
 .academic {
@@ -492,10 +493,10 @@
 }
 @media (max-width: 768px) {
   .baliwoso {
-    top: 5px;
-    right: -20px;
+    top: 30px;
     height: 25px;
   }
+  
   .itinerary .day-info {
     width: 200px;
   }
